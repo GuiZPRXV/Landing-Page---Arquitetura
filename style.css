@@ -1,0 +1,141 @@
+*{
+    font-family: 'Inter';
+    margin: 0;
+}
+ 
+#title{
+    color: white;
+    margin: 62px;
+    padding-top: 100px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#subtitle{
+    color: white;
+    margin-left: 62px;
+    padding-bottom: 149px;
+    
+}
+
+#menu-superior{
+    background: #303030;
+    display: grid;
+    grid-auto-columns: auto;
+    columns: auto;
+}
+
+#menu-informacional{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    padding-top: 65px;
+}
+
+#menu-informacional2{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    padding-bottom: 40px;
+}
+
+.number{
+    font-size: 36px;
+    text-align: center;
+}
+
+.subtextnumber{
+    text-align: center;
+}
+
+#txt1{
+    position: relative;
+    left: 60px;
+}
+
+#txt2{
+    position: relative;
+    left: 25px;
+}
+
+#txt3{
+    position: relative;
+    right: 42px;
+}
+
+#arquitetura{
+    display: grid;
+    grid-auto-columns: auto;
+    padding-bottom: 90px;
+}
+
+#imgarquitetura{
+    width: 500px;
+    height: 605px;
+    flex-shrink: 0;
+    margin-left: 700px;
+    margin-right: 54px;
+}
+
+.textoinfo{
+    margin-left: 77px;
+    position: relative;
+    top: 320px;
+}
+
+#apstxt{
+    font-size: 28px;
+}
+
+#formulario{
+    background-color: #303030;
+}
+
+#formulario{
+    padding-top: 60px;
+    text-align: center;
+    color: white;
+    padding-bottom: 60px;
+}
+
+#titulo-formulario{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+input{
+    margin: 5px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    background-color: #FFFFFF;
+    color: rgba(00, 00, 00, 30);
+    font-weight: bolder;
+    margin-bottom: 10px;
+
+}
+
+input:focus{
+    outline-color: #C07212;
+}
+
+button{
+    background-color: #C07212;;
+    width: 200px;
+    height: 50px;    
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding-left: 5px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 1px;
+}
+
+button:hover{
+    box-shadow: 0px 15px 20px #fdc97c11;
+    transform: translateY(-1px)
+}
